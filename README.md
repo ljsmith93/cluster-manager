@@ -9,7 +9,7 @@ Cluster Manager manages the life cycle of Kubernetes clusters from different clo
 Cluster Manager supports provisioning, scaling up, scaling down and shutting down of Kubernetes clusters on various
 cloud providers. The cluster lifecycle status and cloud provider specific configuration are stored as annotations into 
 the Kubernetes Cluster object in the Federation. Cluster Manager uses these annotations to decide which lifecycle
-operation to perform and how to set up the cluster. Currently AWS and Wercker Clusters are supported. Support for more
+operation to perform and how to set up the cluster. Currently AWS and Oracle Container Engine (OKE) are supported. Support for more
 providers will be added in the near future.
 
 Cluster Manager may be used with [Navarkos](https://github.com/oracle/navarkos)
